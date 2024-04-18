@@ -157,19 +157,19 @@ body {
 }
 
 .trends__card_first {
-    background-image: url("/images/trend1.jpg");
+    background-image: url("../images/trend1.jpg");
 }
 
 .trends__card_second {
-    background-image: url("/images/trend2.jpg");
+    background-image: url("../images/trend2.jpg");
 }
 
 .trends__card_third {
-    background-image: url("/images/trend3.jpg");
+    background-image: url("../images/trend3.jpg");
 }
 
 .trends__card_fourth {
-    background-image: url("/images/trend4.jpg");
+    background-image: url("../images/trend4.jpg");
 }
 
 .trends__card::after {
