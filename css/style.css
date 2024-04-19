@@ -715,13 +715,16 @@ body {
         flex-direction: column;
     }
 
-    .products__cards {
-    
-    }
 
     .products__card {
         min-width: 10%;
         margin-bottom: 25px;
+    }
+
+    .publications__img {
+        height: auto;
+        width: 95%;
+        object-fit: cover;
     }
 
     .content__header {
