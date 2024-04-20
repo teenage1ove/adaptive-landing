@@ -372,31 +372,64 @@
             </div>
         </div>
     </div>
-    <div class="container">
-        <footer class="footer">
-            <div class="wrapper">
-                <address class="footer__icons">
-                    <ul class="footer__icons-list">
-                        <li class="footer-list__item">
-                            <a href="#0" class="footer__icons-item icons-dribble">
-                                <span class="aside__signature">Дриббл</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#0" class="footer__icons-item icons-pinterest">
-                                <span class="aside__signature">Пинтерест</span>
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#0" class="footer__icons-item icons-tambler">
-                                <span class="aside__signature">Тамблер</span>
-                            </a>
-                        </li>
-                    </ul>
-                </address>
-                <a href="#0" class="footer__copyright">Copyright © 2009–2019 City Blog LLC.</a>
-            </div>
-        </footer>
+    
+    <footer class="footer">
+        <div class="wrapper">
+            <address class="footer__icons">
+                <ul class="footer__icons-list">
+                    <li class="footer-list__item">
+                        <a href="#0" class="footer__icons-item icons-dribble">
+                            <span class="aside__signature">Дриббл</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0" class="footer__icons-item icons-pinterest">
+                            <span class="aside__signature">Пинтерест</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#0" class="footer__icons-item icons-tambler">
+                            <span class="aside__signature">Тамблер</span>
+                        </a>
+                    </li>
+                </ul>
+            </address>
+            <a href="#0" class="footer__copyright">Copyright © 2009–2019 City Blog LLC.</a>
+        </div>
+    </footer>
+
+    <div class="popup-container ">
+        <div class="popup">
+            <button type="button" class="popup__close" aria-label="Закрытие окна">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 441 441">
+                    <path stroke="#000" d="M220.336 170.564l.353.353.354-.353L390.288 1.318l49.796 49.773-169.269 169.245-.353.354.353.354 169.269 169.245-49.796 49.796-169.245-169.269-.354-.353-.353.353-169.27 169.269-49.748-49.796 169.245-169.245.353-.354-.353-.354L1.318 51.067 51.09 1.318l169.246 169.246z"/>
+                </svg>
+            </button>
+            <h3 class="popup__header">Ваш фидбек</h3>
+            <form class="popup__form">
+                <div class="popup__form-group">
+                    <label for="input" class="popup__form-label">Как часто вы заходите на сайт?</label>
+                    <input id="input" class="popup__form-input" type="text" placeholder="Почти каждый день">
+                </div>
+                
+                <div class="popup__form-group">
+                    <label for="check2" class="popup__form-label">Вы подписаны на e-mail рассылку?</label>
+                    <div class="form-group__radio">
+                        <input id="check1" class="popup__form-radio" type="radio" name="radio">
+                        <label for="check1" class="popup__form-label">Да</label>
+                        <input id="check2" class="popup__form-radio" type="radio" name="radio">
+                        <label for="check2" class="popup__form-label">Нет</label>
+                    </div>
+                </div>
+                
+                <div class="popup__form-group">
+                    <label for="area" class="popup__form-label">Расскажите, какой контент вы хотели бы видеть на нашем сайте?</label>
+                    <textarea id="area" class="popup__form-textarea" type="text" placeholder="Может больше рецептов?"></textarea>
+                </div>
+    
+                <button type="submit" class="popup__form-button">Отправить</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
