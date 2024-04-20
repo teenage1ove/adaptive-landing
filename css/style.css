@@ -75,6 +75,10 @@ body {
     margin-bottom: 126px;
 }
 
+.header__logo-mobile {
+    display: none;
+}
+
 .header__logo {
     width: 179px;
 }
@@ -499,11 +503,15 @@ body {
     overflow: hidden;
 }
 
+.aside__search-label {
+    flex-grow: 1;
+}
+
 .search__input {
     box-sizing: border-box;
     border: none;
     padding: 15px 20px;
-    width: 224px;
+    width: 100%;
     background-color: #f4f7f6;
     margin: 0;
 }
@@ -668,7 +676,7 @@ body {
     margin-top: 70px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1199px) {
     .header {
         background-image: url("../images/banner-bg-tablet.jpg");
     }
@@ -719,6 +727,7 @@ body {
     .products__card {
         min-width: 10%;
         margin-bottom: 25px;
+        flex-grow: 1;
     }
 
     .publications__img {
@@ -734,5 +743,71 @@ body {
     .content__text {
         margin-top: 25px;
     }
+}
 
+@media (max-width: 767px) {
+    .wrapper-container {
+        flex-direction: column;
+    }
+
+    .wrapper {
+        padding: 0 15px;
+    }
+
+    .header {
+        background-image: url("../images/banner-mobile.jpg");
+    }
+
+    .header__menu {
+        justify-content: end;
+    }
+
+    .header__logo {
+        display: none;
+    }
+
+    .header__logo-mobile {
+        display: block;
+        width: 80%;
+        margin: 0 auto 40px;
+    }
+
+    .header__text {
+        font-size: 26px;
+    }
+
+    .trends__card {
+        width: 100%;
+    }
+
+    .publications__item {
+        justify-content: center;
+        flex-grow: 1;
+    }
+
+    .publications__img {
+        width: 100%;
+    }
+
+    .aside {
+        width: 100%;
+        justify-content: center;
+        margin: 45px auto 0;
+    }
+
+    .aside__header {
+        font-size: 16px;
+    }
+
+    .aside__tags {
+        width: 100%;
+    }
+
+    .aside__themes {
+        width: 100%;
+    }
+
+    .products__title {
+        font-size: 16px;
+    }
 }
