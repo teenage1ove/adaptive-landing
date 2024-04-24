@@ -398,7 +398,7 @@
         </div>
     </footer>
 
-    <div class="popup-container ">
+    <div class="popup-container popup-container_hidden">
         <div class="popup">
             <button type="button" class="popup__close" aria-label="Закрытие окна">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 441 441">
@@ -409,7 +409,10 @@
             <form class="popup__form">
                 <div class="popup__form-group">
                     <label for="input" class="popup__form-label">Как часто вы заходите на сайт?</label>
-                    <input id="input" class="popup__form-input" type="text" placeholder="Почти каждый день">
+                    <select id="input" class="popup__form-select" type="text">
+                        <option value="1">Почти каждый день</option>
+                        <option value="1">Раз в неделю</option>
+                    </select>
                 </div>
                 
                 <div class="popup__form-group">
