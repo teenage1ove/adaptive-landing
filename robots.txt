@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://teenage1ove.github.io/adaptive-landing/sitemap.xml
